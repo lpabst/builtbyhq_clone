@@ -4,6 +4,10 @@ import './Home.css';
 import Header from './../Header/Header.js';
 
 class Home extends Component {
+  constructor(props){
+    super(props);
+    this.state = {}
+  }
 
   render() {
     return (

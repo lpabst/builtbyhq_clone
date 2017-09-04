@@ -8,7 +8,7 @@
     font-size: 44px;
     font-weight: 900;
     letter-spacing: -5px;
-    position: absolute;
+    position: fixed;
     left: 20px;
     top: 15px;
 }
@@ -22,19 +22,21 @@
 }
 
 .ham{
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     position: absolute;
     right: 0px;
     top: 0px;
     border-radius: 50%;
     border: 2px solid #000;
-    line-height: 15px;
+    line-height: 17px;
+    letter-spacing: -1px;
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.25s linear;
 }
 
 .ham:hover{
@@ -47,7 +49,7 @@
     position: absolute;
     list-style-type: none;
     right: -150px;
-    transition: all 0.5s linear;
+    transition: all 0.35s linear;
 }
 
 .menu a{
