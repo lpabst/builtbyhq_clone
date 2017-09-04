@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './../Header/Header.js';
+import HomeHeader from './HomeHeader/HomeHeader.js';
 import './Home.css';
 
 
@@ -14,6 +15,7 @@ class Home extends Component {
       <div className="home">
 
         <Header />
+        <HomeHeader />
 
 
       </div>

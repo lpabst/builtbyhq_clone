@@ -9,7 +9,8 @@ class HomeHeader extends Component {
     return (
       <section className="home_header">
 
-          HomeHeader Page
+          <h5>WE'RE A DIGITAL CREATIVE AGENCY</h5>
+          <h1>Let's build together</h1>
 
       </section>
     );
