@@ -17,6 +17,10 @@ class Header extends Component {
     window.addEventListener('scroll', this.closeMenu)
   }
 
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.closeMenu)
+  }
+
   openMenu(){
     this.setState({
       showMenu: !this.state.showMenu
@@ -39,7 +43,7 @@ class Header extends Component {
       menuStyle = { right: '10px' }
       hamStyle = { top: '-70px' }
     }else{
-      menuStyle = { right: '-150px' }
+      menuStyle = { right: '-170px' }
       hamStyle = { top: '0px' }
     }
 
@@ -50,12 +54,12 @@ class Header extends Component {
         
         <div className='right_nav'>
           <div className='ham' onClick={ this.openMenu } style={hamStyle}>...</div>
-          <div className='menu' style={menuStyle}>
-            <Link to='/work'>WORK</Link>     
-            <Link to='/story'>OUR STORY</Link>
-            <Link to='/blog'>BLOG</Link>
-            <Link to='/careers'>CAREERS</Link>
-            <Link to='/contact'>CONTACT</Link>
+          <div className='menu'>
+            <Link to='/work' style={menuStyle}>WORK</Link>     
+            <Link to='/story' style={menuStyle}>OUR STORY</Link>
+            <Link to='/blog' style={menuStyle}>BLOG</Link>
+            <Link to='/careers' style={menuStyle}>CAREERS</Link>
+            <Link to='/contact' style={menuStyle}>CONTACT</Link>
           </div>
         </div>
 
