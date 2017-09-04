@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 
+*{
+  user-select: none;
+}
+
 .App {
   width: 100%;
   position: relative;
