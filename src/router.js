@@ -26,7 +26,7 @@ export default (
         <Route component={ Contact } path='/contact' exact />
         <Route component={ Openings } path='/openings' exact />
         <Route component={ OpeningsIOS } path='/openings/ios-developer' exact />
-        <Route component={ OpeningsPM } path='/openings/project_manager' exact />
+        <Route component={ OpeningsPM } path='/openings/project-manager' exact />
         <Route component={ OpeningsUX } path='/openings/ux-designer' exact />
         <Route component={ OpeningsFrontEnd } path='/openings/frontend-developer' exact />
         <Route component={ Story } path='/story' exact />

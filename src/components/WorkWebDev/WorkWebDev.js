@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './WorkWebDev.css';
 
 
-class WorkWebDevWebDev extends Component {
+class WorkWebDev extends Component {
 
   render() {
     return (
