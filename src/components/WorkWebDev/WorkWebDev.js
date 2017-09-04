@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Header from './../Header/Header.js';
 import './WorkWebDev.css';
 
 
@@ -9,6 +9,7 @@ class WorkWebDev extends Component {
     return (
       <div className="work_web_dev">
 
+        <Header />
           WorkWebDev Page
 
       </div>

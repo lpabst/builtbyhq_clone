@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Header from './../Header/Header.js';
 import './Story.css';
 
 
@@ -8,8 +8,9 @@ class Story extends Component {
   render() {
     return (
       <div className="story">
-
-          Story Page
+        
+        <Header />
+        Story Page
 
       </div>
     );

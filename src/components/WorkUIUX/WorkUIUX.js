@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Header from './../Header/Header.js';
 import './WorkUIUX.css';
 
 
@@ -9,7 +9,8 @@ class WorkUIUX extends Component {
     return (
       <div className="work_ui_ux">
 
-          WorkUIUX Page
+        <Header />
+        WorkUIUX Page
 
       </div>
     );

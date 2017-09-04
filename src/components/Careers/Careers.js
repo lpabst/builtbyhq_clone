@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Header from './../Header/Header.js';
 import './Careers.css';
 
 
@@ -9,7 +9,8 @@ class Careers extends Component {
     return (
       <div className="careers">
 
-          Careers Page
+        <Header />
+        Careers Page
 
       </div>
     );
