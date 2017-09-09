@@ -2,8 +2,10 @@
 .home_header{
     width: 100%;
     position: relative;
-    padding: 70px 30px 150px;
+    padding: 150px 150px 300px;
     text-align: center !important;
+    background: url('')center no-repeat;
+    background-size: cover;
 }
 
 

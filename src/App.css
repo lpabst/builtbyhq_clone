@@ -16,3 +16,9 @@ a{
   color: #000;
 }
 
+section{
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
